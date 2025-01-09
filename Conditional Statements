@@ -1,0 +1,108 @@
+1)HTML
+Hypertext Markup Language (HTML) is the standard markup language[a] for documents designed to be displayed in a web browser. It defines the content and structure of web content.
+
+2)CSS
+Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[2] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+3)JAVASCRIPT
+--it is used to create dynamic websites
+--form validations
+
+1)static websites:
+html,css
+--remains constant to everyone
+ex-fb login
+
+2)dynamic websites:
+-- changes to everyone
+
+1)facebook
+2)youtube
+3)cricbuzz
+4)google
+
+4)React Js:
+#notepad
+#Git-hub
+#vs code
+#creating websites
+
+9/1/2025
+Conditional statements:
+
+--To make the set instructions execute only when the given condition is true.
+
+--they are used to decide whether the code has to be executed or skipped based on the given condition.
+
+--lint-line (sequence)
+
+Block of code : set of instructions:
+--it will be executes only when the specific condition is True.
+
+Condition:An expression that evaluates an result(True or False)
+Ex-console.log(5>6)
+
+--Methods:
+if
+fi-else
+else if
+switch
+Ternary Operator
+
+1.if: only one possible condition:
+--if condition is True it will execute other wise it skips.
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=prompt("Enter score A")
+        let b=prompt("Enter score B")
+        if(a>=300){
+            document.write("Can team up","<br>")
+        }
+        else if(b>=300){
+            document.write("Can team up","<br>")
+        }
+        if(a+=b<500){
+            document.write("cannot team up")
+        }
+        else if(a+=b>500){
+            documrnt.write('')
+        }
+        
+        /*let a=4
+            let b=5
+            if (a<b){
+                document.write("hello SURYA!!","<br>")
+            }else{
+                document.write("hi SHANE")
+            }
+            document.write("Brilliant philanthropist")*/
+            
+    </script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
