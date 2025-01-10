@@ -1,0 +1,72 @@
+1.write a program to check whether the number is divisible by 2&3 and both.
+
+2. write a program to find the largest number out of three numbers expected from the user:
+ A=11,B=5,C=8.
+
+3. Accept the following from the user and calculate the percentages of classes
+attended:
+a. Total number of working days
+b. Total number of days absent
+after calculating percentage show that, if the percentage is less than 75,
+then student will not be eligible to write exam.
+
+
+4th: A company decided to give bonus to employee according to 
+    following criteria:
+    Time period of service    bonus
+    More than 10 years         10%
+    >=6 and <=10                8%
+    Less than 6years            5%
+Ask the user for their salary and years of service and print the bonus amount.
+#ANSWERS:
+1.let a=parseInt(prompt("enter a number"))
+        let b=parseInt(prompt("enter b number"))
+        let c=parseInt(prompt("enter c number"))
+        if(a>b && a>c){
+            alert(a+"is greater")
+        }
+        if(b>a && b>c){
+            alert(b+"is greater")
+        }
+        if(c>a && c>b){
+            if(c>b)
+            alert(c+"is greater")
+        }
+2. let wdays = parseInt(prompt("Enter number of working days: "));
+        let absdays = parseInt(prompt("Enter number of days absent: "));
+        if((wdays-absdays)/wdays < 0.75){
+            alert("Not eligible to write the exam");
+        }
+        else{
+            alert("eligible to write the exam");
+        }
+3.let a=parseInt(prompt("total number of days"))
+        let b=parseInt(prompt("number of days absent"))
+        let c=a-b
+        let pre=(c/a)*100
+        if(pre>=75){
+            alert("you are eligible to write the exam")
+        }
+        else{
+            alert("you are not eligible to write the exam")
+        }
+4. let a=parseInt(prompt("salary"))
+        let b=parseInt(prompt("years of service"))
+        if(b>10){
+            let c=a*0.1
+            let d=c+a
+            alert("after bonus salary"+d)
+        }
+        else if(b>=6 && b<=10){
+            let c=a*0.08
+            let d=c+a
+            alert("after bonus salary"+d)
+        }
+        else if(b<6){
+            let c=a*0.05
+            let d=c+a
+            alert("after bonus salary"+a)
+        }
+        else{
+            alert(a)
+        } 
