@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*let num =prompt("Enter a number")
+        switch(true){
+            case num>0:
+                console.log("number is posituve");
+                break;
+            case num==0:
+                console.log("number is zero");
+                break;
+            case num<0:
+                console.log("number is negative");
+                break;
+            default:
+                console.log("Invalid Input")
+        }*/
+       let day =prompt("enter the day?")
+       switch(day){
+         case 'monday':
+         case 'tuesday':
+         case 'wednesday':
+         case 'thursday':
+            console.log("it's a week day");
+            break;
+        case 'friday':
+        case 'saturday':
+        case 'sunday':
+            console.log("it's a weekend");
+            break;
+            console.log("Invalid day")
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+  #task 2
+              <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let elec = parseInt(prompt("Enter units : "));
+        let amt=0;
+        if(elec<=50){
+            amt = amt+(elec*2);
+        }
+        else if(elec <=150){
+            amt = amt+(50*2);
+            amt = amt+((elec-50)*3);
+        }
+        else if(elec <= 250){
+            amt = amt+(50*2);
+            amt = amt+(100*3);
+            amt = amt+((elec-150)*5);
+        }
+        else{
+            amt = amt+(50*2);
+            amt = amt+(100*3);
+            amt = amt+(100*5);
+            amt = amt+((elec-250)*8);
+        }
+        amt = amt + (amt/100 * 20);
+        console.log("Amount = "+amt);
+    </script>
+</body>
+</html>
+
+
+
+
+  #task3:
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num =prompt("Enter a number")
+        switch(true){
+            case num>0:
+                console.log("number is positive");
+                break;
+            case num==0:
+                console.log("number is zero");
+                break;
+            case num<0:
+                console.log("number is negative");
+                break;
+            default:
+                console.log("Invalid Input")
+        }
+    </script>
+</body>
+</html>
+
+
+  #task 4:
+                  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let units = parseInt(prompt("Enter the number of units used"));
+let bill = 0;
+
+if (units <= 50) {
+    bill = units * 2;
+} else if (units <= 150) {
+    bill = 50 * 2 + (units - 50) * 3;
+} else if (units <= 250) {
+    bill = (50 * 2 )+ 100 * 3 + (units - 150) * 5;
+} else {
+    bill = (50 * 2) + (100 * 3) + (100 * 5) + (units - 250) * 8;
+}
+
+bill = bill + (bill * 20) / 100;
+document.write("The total electricity bill is: " + bill);
+    </script>
+</body>
+</html>
